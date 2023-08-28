@@ -70,4 +70,9 @@ function bubble(selectedValue) {
     });
 }
 
+function optionChanged(params) {
+    demo(params);
+    bar(params);
+    bubble(params);
+}
 init();
